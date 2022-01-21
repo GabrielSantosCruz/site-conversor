@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Frases</title>
+</head>
+<body>
+    <center>
+    <h1>Conversor de frases</h1>
+    <form action="{{ url_for('index') }}" method="post">
+        <label for="">Teste</label>
+        <input type="text" name="name" placeholder="Digite a frase">
+        <button>MAIÚSCULO</button>
+    </form>
+    <p1>{{ frase_maiuscula }}</p1>
+    </center>
+</body>
+</html>
